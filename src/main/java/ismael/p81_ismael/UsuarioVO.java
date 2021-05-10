@@ -20,8 +20,8 @@ public class UsuarioVO {
 
     public UsuarioVO(int pk, LocalDate fechaNacimiento, String nombre, String Apellidos) {
         this.pk = pk;
-        this.nombre = nombre;
         this.fechaNacimiento = fechaNacimiento;
+        this.nombre = nombre;
         this.Apellidos = Apellidos;
     }
 
@@ -65,5 +65,7 @@ public class UsuarioVO {
     public String toString() {
         return "UsuarioVO{" + "pk=" + pk + ", nombre=" + nombre + ", fechaNacimiento=" + fechaNacimiento + ", Apellidos=" + Apellidos + '}';
     }
+
+
 
 }

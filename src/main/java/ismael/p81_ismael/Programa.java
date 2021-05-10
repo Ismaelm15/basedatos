@@ -51,7 +51,7 @@ public class Programa {
             nuevaLista = daoUsuario.getAll();
             System.out.println("-------- Lista con datos recogidos desde la B.D despues de modificar una persona -------------");
             nuevaLista.forEach(System.out::println);
-//            System.out.println("-----------------------------------------");
+            System.out.println("-----------------------------------------");
 //            System.out.println("Ejecución del procedimiento almacenado");
 //            System.out.println("Se cambia María Weston por Felipe Román");
 //            System.out.println("Nombres cambiados " + daoUsuario.cambiarNombres("Pedro", "Francisco"));

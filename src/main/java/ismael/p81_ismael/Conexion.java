@@ -15,10 +15,10 @@ import java.sql.SQLException;
  */
 public class Conexion {
 
-    private static final String SERVIDOR = "jdbc:mysql://192.168.56.3/";
+    private static final String SERVIDOR = "jdbc:mysql://127.0.0.1/";
     private static final String NOMBRE_BASE_DATOS = "smashgg";
-    private static final String USER = "M15";//en casa root y sin contraseña
-    private static final String PASS = "Ojc963k6qh.";
+    private static final String USER = "root";//en casa root y sin contraseña
+    private static final String PASS = "";
 
     private static Connection instancia = null;
     
