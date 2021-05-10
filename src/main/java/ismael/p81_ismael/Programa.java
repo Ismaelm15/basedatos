@@ -43,14 +43,14 @@ public class Programa {
             nuevaLista = daoUsuario.getAll();
             System.out.println("-------- Lista con datos recogidos desde la B.D despues de borrar una persona -------------");
             nuevaLista.forEach(System.out::println);
-//            System.out.println("-----------------------------------------");
-//            System.out.println("Modificación de la persona con pk 2");
-//            System.out.println("Nº Personas modificadas "
-//                    + daoUsuario.updateUsuario(2, new UsuarioVO(2, LocalDate.of(1997, 6, 6), "NuevoNombre", "Melgar")));
-//            System.out.println("-----------------------------------------");
-//            nuevaLista = daoUsuario.getAll();
-//            System.out.println("-------- Lista con datos recogidos desde la B.D despues de modificar una persona -------------");
-//            nuevaLista.forEach(System.out::println);
+            System.out.println("-----------------------------------------");
+            System.out.println("Modificación de la persona con pk 2");
+            System.out.println("Nº Personas modificadas "
+                    + daoUsuario.updateUsuario(2, new UsuarioVO(2, LocalDate.of(1997, 6, 6), "NuevoNombre", "Melgar")));
+            System.out.println("-----------------------------------------");
+            nuevaLista = daoUsuario.getAll();
+            System.out.println("-------- Lista con datos recogidos desde la B.D despues de modificar una persona -------------");
+            nuevaLista.forEach(System.out::println);
 //            System.out.println("-----------------------------------------");
 //            System.out.println("Ejecución del procedimiento almacenado");
 //            System.out.println("Se cambia María Weston por Felipe Román");
